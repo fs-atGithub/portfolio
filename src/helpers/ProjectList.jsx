@@ -10,4 +10,12 @@ export const ProjectList = [
     link: "https://filip-seminarski-chat-app.netlify.app/",
     repo: "https://github.com/fs-atGithub/algebra_chat_app",
   },
+  {
+    name: "Online recepti",
+    description: "Online recepti sa spoonacular API-ja",
+    image: chat,
+    skills: "HTML, CSS, SCSS, ReactJS",
+    link: "https://recepti-filip.netlify.app",
+    repo: "https://github.com/fs-atGithub/recepti",
+  },
 ];
