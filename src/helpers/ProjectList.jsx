@@ -1,4 +1,5 @@
 import chat from "../assets/chat.jpg";
+import recepti from "../assets/recepti.png";
 
 export const ProjectList = [
   {
@@ -13,7 +14,7 @@ export const ProjectList = [
   {
     name: "Online recepti",
     description: "Online recepti sa spoonacular API-ja",
-    image: chat,
+    image: recepti,
     skills: "HTML, CSS, SCSS, ReactJS",
     link: "https://recepti-filip.netlify.app",
     repo: "https://github.com/fs-atGithub/recepti",
