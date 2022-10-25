@@ -1,7 +1,6 @@
 import React from "react";
-
-import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
+
 import "../styles/Home.css";
 
 function Home() {
@@ -15,8 +14,13 @@ function Home() {
             aplikacija
           </p>
 
-          <EmailIcon />
-          <GithubIcon />
+          <a
+            href="https://github.com/fs-atGithub/portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -25,14 +29,8 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI, TailwindCSS,
-              StyledComponents
+              ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI, StyledComponents
             </span>
-          </li>
-
-          <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
           </li>
         </ol>
       </div>
