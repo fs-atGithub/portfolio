@@ -19,7 +19,7 @@ function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <GithubIcon />
+            <GithubIcon alt="github" />
           </a>
         </div>
       </div>
